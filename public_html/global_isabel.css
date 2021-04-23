@@ -1,0 +1,229 @@
+/*INDEX=======================================================================*/
+html{
+    max-width: 1280px;/*to avoid stretching on wide screens*/
+    margin: auto; /*pour page centree*/
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #2F4F4F;
+    background-color: #FFFFF0;
+    text-align: justify;
+    
+    }
+
+h1 {
+    position:absolute;
+    display:inline-bock;
+    font-family:'Dancing Script', cursive;
+    font-size:70px;
+    left:340px;
+    top:20px;
+
+    }
+#ul1 {
+    list-style-type: none;
+    margin: 10px;
+    padding: 14px 14px;
+    overflow: hidden; 
+    background-color: #383838;
+    }    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+    overflow: hidden;
+    }
+    
+.offres-img{
+    width:55%;
+    border: 7px solid #FFFFF0;
+    margin:auto;
+    
+      }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#32CD32;
+}
+a {
+    color:#8FBC8F;
+}
+.div {
+    text-align:right;
+}
+
+.flex-container {
+    display: flex;
+    }
+
+.flex-container > div {
+    background-color: #D3D3D3;
+    width: 28%;
+    margin: auto;
+    padding:30px;
+    text-align: center;
+    line-height:20px;
+    font-size: 15px;
+    border: 5px double;
+}
+
+footer{
+    display: block;
+    font-family:Trebuchet MS;
+    color:AntiqueWhite;
+    font-size: 14px;
+    background-color:#556B2F;
+    line-height: 18px;
+    margin: 17px;
+    box-sizing:content-box;
+    
+}
+
+span.b {
+    display: inline-block;
+    width: 33%;
+    height:33%;
+    vertical-align: top;
+    text-align: justify;
+    line-height: 18px;
+ }
+ 
+ div.b {
+    display: inline-block;
+    width: 30%;
+    height:30%;
+    padding:0 10px;
+    vertical-align: top;
+    text-align: justify;
+    line-height: 18px;
+    
+ }
+ 
+.icon {
+    width:25px;
+    border-radius:0%;
+    margin:5px;
+    vertical-align: middle; 
+    
+}
+
+/*CATALOGUE===================================================================*/
+
+.catalogue1 {
+    display: inline-block;
+    width: 60%;
+    vertical-align:middle;
+    line-height:normal;
+    margin-left: 20px;
+    }
+.catalogue2 {
+    display: inline-block;
+    position: absolute;
+    line-height:75px;
+    border: solid #D3D3D3;
+    text-align: center;
+    background-color:#D3D3D3;
+    width:620px;
+    height:350px;
+    margin:auto;
+      
+  }  
+  .imgcatalogue {
+   float: left;
+   border: solid;
+   width: 75%;
+  }
+ 
+/* PRODUIT====================================================================*/  
+  .Text {
+    line-height: 1.5;
+    }
+    
+    .produit {
+      clear:left;
+      
+    }
+    
+    .produit img{
+        width:30%;
+        float:left;
+        margin: 35px;
+    }
+    
+    .produit h2{
+        float:left;
+        margin: 35px;
+    }
+    .produit h3 {
+        margin: 35px;
+        float:left;
+    }
+    
+    .produit p{
+         width: 30%;
+         text-align: justify;
+         float:left;
+         margin-left: 30px;
+    }
+
+/* TABLE===================================================================== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 25px;
+}
+
+tr:nth-child(even) {background-color: #32CD32;}
+caption {
+    font-size:22px;
+}
+
+/*GALERIE=====================================================================*/
+div.gallerie {
+  margin: 5px;
+  border: 3px double #ccc;
+  float: left;
+  width: 400px;
+}
+
+div.gallerie:hover {
+  border: 1px solid #777;
+}
+
+div.gallerie img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* */
+button:hover {
+   cursor:pointer;
+        
+    }
+input [type=submit]:hover {
+   cursor: pointer
+    
+    }

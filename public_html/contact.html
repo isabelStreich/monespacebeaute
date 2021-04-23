@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="fr-CA">
+    <head>
+        <title> Mon eSPAce Beauté-Contact </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="global_isabel.css">
+        <link rel="icon" href="icon-Spa-Beaute.jpg" type="image/jpg" sizes="16x16">
+        <link rel="stylesheet" href="global_isabel.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lobster&display=swap');
+        </style>
+    </head>
+    <body>
+        <img src="icon-Spa-Beaute.jpg" alt= "icon-Spa-Beaute" width="200"/>
+        <h1 id="index"> <strong> Mon eSPAce Beauté </strong> &reg;</h1> <br>
+
+        <nav>
+            <ul id="ul1">
+                <li><a href="index.html"> ACCUEIL </a> <br></li>
+                <li><a href="catalogue.html"> SERVICES </a> <br></li>
+                <li><a href="table.html"> COMPAREZ </a> <br></li>
+                <li><a href="galerie.html"> GALERIE </a> <br></li>
+                <li><a href="contact.html"> CONTACTEZ-NOUS </a> <br></li>
+            </ul>
+        </nav>
+        <!--Debut contact============================================================-->        
+        <table id="table1">
+            <tr>
+                <td> <h2>Merci d’utiliser les services Mon eSPAce Beauté!<br>
+                        Aidez-nous à l’améliorer pour vous!</h2>
+                    <br>
+                    <form action="page-reponse.html" method="post"> </form>
+                    <input type="hidden" name="no formulaire" value="client_edit"> 
+                    <fieldset style="width:500px;">
+                        Votre numero de client<br> 
+                        <input type="text" name="ID" value="12345CL" disabled > <br>
+                        <br>    
+                        <input type="text" name="Prenom" placeholder="Prenom" maxlength="25" autofocus> <br>
+                        <br>
+                        <input type="text" name="Nom" placeholder="Nom" maxlength="25"> <br>
+                        <br>
+                        <input type="email" name="email" placeholder="E-mail" maxlength="125"> <br>
+
+                        <p>Avez-vous une:</p>
+                        <input type="radio" name="age" value="Suggestion"> Suggestion<br>
+                        <input type="radio" name="age" value="Réclamation"> Réclamation<br>
+                        <input type="radio" name="age" value="Autre"> Autre <br>
+                        <br>  
+
+                        Pour quel département de Mon eSPAce Beauté?
+                        <br>
+                        <br>
+                        <select name="département" required style='width:440px'>
+                            <option value="choisissez une option"> choisissez une option </option>
+                            <option value="SpaServices"> Spa Services </option>
+                            <option value="Massages"> Massages </option>
+                            <option value="Facial"> Facial </option>
+                            <option value="Pedicure"> Pedicure </option>
+                            <option value="Manicure"> Manicure </option>
+                            <option value="Reception Mon eSPAce Beauté"> Reception Mon eSPAce Beauté </option>
+                            <option value="Autre"> Autre </option>
+                        </select>*
+                        <br>
+                        <br>
+                        Message<br>
+                        <textarea name="message" cols="70" rows="20"> Entrez votre message...
+                        </textarea> <br>
+                        <br><br>
+                        <input type="submit" value="Soumettre" name="Submit">
+                    </fieldset>
+                </td>
+                <td>
+                    <h2> Venez nous rencontrer! </h2>
+                    <h3><u> Notre Adresse </u></h3>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5592.3726291689445!2d-73.55894927335316!3d45.50632791640559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4cc91a56e2145fed%3A0x765d934787a0c90b!2s447+Rue+Saint+Jean+Baptiste%2C+Montreal%2C+QC+H2Y+2Z7!3m2!1d45.506327999999996!2d-73.5545719!5e0!3m2!1sen!2sca!4v1563757877041!5m2!1sen!2sca" width="300" height="250" style="border:0 double" allowfullscreen></iframe>
+                    <br>
+                    <h3><u> Notre Numéro de Téléphone </u></h3>
+                    <a href="Telephone" >
+                        <img class="icon" src="iconmonstr-phone-1.svg" alt= "Telephone" title="Appelez-nous si vous avez des questions"/>
+                        514-123-5467 
+                    </a> 
+                    <br>
+                    <h3><u>Notre Adresse Courrier</u> </h3>
+                    <a href="mailto:info@monespacebeaute.com" >
+                        <img class="icon" src= "iconmonstr-gmail-1.svg" alt= "E-mail" title="Envoyez-nous un email" />
+                        info@monespacebeaute.com </a> 
+                    <br>
+                    <h3><u>Horaires</u></h3>
+                    <ul>
+                        <li> Lun.-Vend.: 9 AM - 9PM</li><br> 
+                        <li> Samedi: 9 AM - 6PM</li><br>
+                        <li> Dimanche: 10 AM - 5PM</li><br>
+                    </ul>
+                    <!--Je devais mettre br parce que sinon tout était mis sur la même ligne.-->
+                    <h3> <u> Prenez votre RDV </u></h3>
+                    <form action="action_page.php">
+                        <input type="datetime-local" name="usr_time"> 
+                        <br>
+                        <br>
+                        <input type="submit" value="Soumettre" name="Submit">
+                    </form> </td>
+            </tr>	
+        </table>	      
+        <br>
+        <br>
+        <div style="clear:left"></div>
+        <!--debtu FOOTER=============================================================-->         
+        <footer>
+            <div class="b"> 
+                <h3><u>Contactez-Nous</u></h3>
+                <a href="Location">
+                    <img class="icon" src= "iconmonstr-navigation-10.svg" alt= "Location" title="Visitez-nous" /> 
+                    447 Rue Saint Jean Baptiste,<br>
+                    Montréal, QC H2Y 2Z7
+                </a>
+                <br>
+                <a href="mailto:info@monespacebeaute.com" >
+                    <img class="icon" src= "iconmonstr-gmail-1.svg" alt= "E-mail" title="Envoyez-nous un email" />
+                    info@monespacebeaute.com </a> 
+                <br>
+                <a href="Telephone" >
+                    <img class="icon" src="iconmonstr-phone-1.svg" alt= "Telephone" title="Appelez-nous si vous avez des questions"/>
+                    514-123-5467 </a>
+                <br>
+                <br>
+                <br>
+                <h3> <u> Suivez-Nous!</u></h3> 
+
+                <a href="Facebook">   
+
+                    <img class="icon" src="iconmonstr-facebook-1.svg" alt="Facebook" title="Facebook"> </a> 
+
+                <a href="Instagram" >
+                    <img class="icon" src="iconmonstr-instagram-6.svg" alt="Instagram" title="Instagram"> </a>
+
+                <a href="Twiter" >
+                    <img class="icon" src="iconmonstr-twitter-1.svg" alt="Twiter" title="Twiter"> </a>
+            </div>
+            <div class="b">
+                <ul> <h3><u>Horaires d'Overture </u></h3>
+                    <li> Lun.-Vend.: 9 AM - 9PM</li><br> 
+                    <li> Samedi: 9 AM - 6PM</li><br>
+                    <li> Dimanche: 10 AM - 5PM</li><br>
+                </ul>
+                <!--Je devais mettre br parce que sinon tout était mis sur la même ligne.-->
+                </ul>
+                <h3> <u> Prenez votre RDV </u></h3>
+                <form action="/action_page.php">
+                    <input type="datetime-local" name="usr_time">
+                    <input type="submit">
+                </form>
+                <br>
+                <br>
+                <a href="#"> <b>HAUT DE LA PAGE </b></a>
+                <br>
+                <br>
+                <a> Isabel Streich; &copy;  2019 </a>
+                <br>
+            </div>
+            <div class="b"> 
+                <h3><u>Infolettre</u></h3>
+                <p>Soyez les premiers informes de nos promotions,<br>
+                    de nos évenements et de nos nouveatés </p>
+                <form action="page_reponse.html" method="post">
+                    <input type="hidden" name="no formulaire" value="client_edit"> 
+                    <input type="email" name="email" placeholder="E-mail" maxlength="125"> <br>
+                    <br>
+                    <form action="/action_page.php"> </form> 
+                    <input type="checkbox" name="info" value="info"> Je desire recevoir periodiquement <br>de l'information<br>
+                    sur les nouveaux produits.
+                    <br>
+                    <input type="checkbox" name="conexion" value="conexion"> Garder ma connexion ouverte 
+                    <br><br>
+                    <input type="submit" value="Continuez" name="Submit">
+
+                    <br>
+                    <br>
+
+                    </div>
+
+                    </footer>
+
+
+                    </body>
+                    </html>
